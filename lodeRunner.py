@@ -1,4 +1,10 @@
 import pygame,time,sys,random
+
+# [loderunner]
+# date: 2019.08.24
+# version: 1.2
+# author: Candice Zhang, Junfeng Yang
+
 SCREEN_WIDTH,SCREEN_HEIGHT,MAX_RADIUS = 900,600,540
 PIC_WIDTH,PIC_HEIGHT = 30,33
 GRID_COLS,GRID_ROWS = 28,16
