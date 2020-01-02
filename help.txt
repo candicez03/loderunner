@@ -1,0 +1,4 @@
+keyboard controls:
+- press arrow keys to move (you can't jump)
+- z/x to dig holes
+- for the rules, you can refer to the "How to play" section at https://strategywiki.org/wiki/Lode_Runner
