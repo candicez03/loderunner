@@ -1,5 +1,9 @@
 import pygame,sys,math
 
+# [recognizer]
+# date: 2019.08.24
+# version: 1.0
+# author: Candice Zhang
 
 def calValue(pic,x,y,w,h):
     rVal,gVal,bVal = 0,0,0
@@ -28,14 +32,14 @@ pic = pygame.image.load(picName)
 picW,picH = pic.get_size()
 w,h = int(picW/28),int(picH/16)
 calValue(pic,0,0,picW,picH)
-vground = pygame.image.load("vground.bmp")
-ground  = pygame.image.load("ground.bmp")
-floor   = pygame.image.load("floor.bmp")
-bar     = pygame.image.load("bar.bmp")
-box     = pygame.image.load("box.bmp")
-ladder  = pygame.image.load("ladder.bmp")
-lr02    = pygame.image.load("lr02.bmp")
-pr02    = pygame.image.load("pr02.bmp")
+vground = pygame.image.load("assets/vground.bmp")
+ground  = pygame.image.load("assets/ground.bmp")
+floor   = pygame.image.load("assets/floor.bmp")
+bar     = pygame.image.load("assets/bar.bmp")
+box     = pygame.image.load("assets/box.bmp")
+ladder  = pygame.image.load("assets/ladder.bmp")
+lr02    = pygame.image.load("assets/lr02.bmp")
+pr02    = pygame.image.load("assets/pr02.bmp")
 stdList = []
 stdList.append([calValue(vground,0,0,30,33),"."])
 stdList.append([calValue(ground,0,0,30,33),'#'])
